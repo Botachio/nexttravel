@@ -28,6 +28,24 @@
   </nav>
   <nav class="navbar fixed-bottom bg-inverse navbar-dark">
     <p class="my-1 text-left text-white"><b>Tel.</b> 02-651-7309 (Mon-Fri 8.00-5.00 Sat 8.00-12.00)<br><b>Email</b> info@nexttravel.co.th</p>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '95100348886',
+          xfbml      : true,
+          version    : 'v2.6'
+        });
+      };
+
+      (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div class="fb-messengermessageus" messenger_app_id="95100348886" page_id="Nexttravel" color="blue" size="large"> </div>
   </nav>
   <div class="py-5 section text-center">
     <div class="container">
